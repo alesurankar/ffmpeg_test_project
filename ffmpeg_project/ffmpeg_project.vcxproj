@@ -107,7 +107,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>avformat.lib;avcodec.lib;avutil.lib;swscale.lib;swresample.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>avformat.lib;avcodec.lib;avutil.lib;swscale.lib;swresample.lib;avdevice.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:\Users\aleur\Desktop\Libraries\ffmpeg\lib</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
@@ -124,7 +124,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>avformat.lib;avcodec.lib;avutil.lib;swscale.lib;swresample.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>avformat.lib;avcodec.lib;avutil.lib;swscale.lib;swresample.lib;avdevice.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:\Users\aleur\Desktop\Libraries\ffmpeg\lib</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
